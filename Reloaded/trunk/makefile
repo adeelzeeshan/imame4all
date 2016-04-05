@@ -28,9 +28,9 @@ ANDROID = 1
 
 #AARMV6=1
 
-AARMV7=1
+#AARMV7=1
 
-#AARMV8=1
+AARMV8=1
 
 ########## iOS
 
@@ -50,12 +50,12 @@ AARMV7=1
 
 CROSS_BUILD = 1
 
-#TARGETOS = android
-#PTR64 = 0
+TARGETOS = android
+PTR64 = 0
 
-X86_MIPS3_DRC =
-X86_PPC_DRC =
-FORCE_DRC_C_BACKEND = 1
+#X86_MIPS3_DRC =
+#X86_PPC_DRC =
+#FORCE_DRC_C_BACKEND = 1
 
 #OPTIMIZE = 1
 
@@ -77,15 +77,15 @@ BASE_DEV=/home/david/Projects/android/my-android-toolchain-r8/sysroot
 endif
 
 ifdef AARMV7
-MYPREFIX=/home/david/Projects/android/my-android-toolchain-r10c-18/bin/arm-linux-androideabi-
+MYPREFIX=/home/gpf/my-android-toolchain/bin/arm-linux-androideabi-
 #MYPREFIX=/home/david/Projects/android/my-android-toolchain-r9-18/bin/
-BASE_DEV=/home/david/Projects/android/my-android-toolchain-r10c-18/sysroot
+BASE_DEV=/home/gpf/my-android-toolchain/sysroot
 endif
 
 ifdef AARMV8
 PTR64 = 1
-MYPREFIX=/home/david/Projects/android/my-android-toolchain-r10c-21-arm64/bin/aarch64-linux-android-
-BASE_DEV=/home/david/Projects/android/my-android-toolchain-r10c-21-arm64/sysroot
+MYPREFIX=/home/gpf/my-android64-toolchain/bin/aarch64-linux-android-
+BASE_DEV=/home/gpf/my-android64-toolchain/sysroot
 endif
 
 #MYPREFIX=/home/david/Projects/android/my-android-toolchain-14-crystax/bin/arm-linux-androideabi-
@@ -290,7 +290,7 @@ endif
 BUILD_EXPAT = 1
 
 # uncomment next line to build zlib as part of MAME build
-#BUILD_ZLIB = 1
+BUILD_ZLIB = 1
 
 # uncomment next line to include the symbols
 # SYMBOLS = 1
@@ -400,7 +400,7 @@ else
 
 AR = @$(MYPREFIX)ar
 ifdef AARMV7
-CC = @$(MYPREFIX)gcc-4.6
+CC = @$(MYPREFIX)gcc-4.9
 #CC = @$(MYPREFIX)g++
 else
 CC = @$(MYPREFIX)gcc
@@ -1046,7 +1046,7 @@ $(EMULATOR): $(VERSIONOBJ) $(DRVLIBS) $(OSDOBJS) $(CPUOBJS) $(LIBEMUOBJS) $(DASM
 else
 $(EMULATOR): $(VERSIONOBJ) $(DRVLIBS) $(OSDOBJS) $(CPUOBJS) $(LIBEMUOBJS) $(DASMOBJS) $(SOUNDOBJS) $(UTILOBJS) $(EXPATOBJS) $(SOFTFLOATOBJS) $(HQXOBJS) $(OSDCOREOBJS) $(RESFILE)
 	@echo Linking $@...
-	$(LD) $(LDFLAGS) $(LDFLAGSEMULATOR) $^ $(LIBS) -o $@
+	$(LD) $(LDFLAGS) $(LDFLAGSEMULATOR) $^ $(LIBS) -o libMAME4droid.so
 endif 
 
 ifeq ($(TARGETOS),win32)
