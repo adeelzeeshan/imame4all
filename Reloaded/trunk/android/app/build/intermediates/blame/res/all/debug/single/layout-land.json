@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/layout-land/main.xml",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/layout-land/main.xml"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/layout-land/emuview_sw.xml",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/layout-land/emuview_sw.xml"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/layout-land/emuview_gl.xml",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/layout-land/emuview_gl.xml"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/layout-land/emuview_gl_ext.xml",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/layout-land/emuview_gl_ext.xml"
+    }
+]

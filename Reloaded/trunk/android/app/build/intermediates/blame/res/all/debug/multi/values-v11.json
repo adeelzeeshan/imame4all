@@ -1,0 +1,91 @@
+[
+    {
+        "outputFile": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 9,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endLine": 7,
+                        "endColumn": 9,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endLine": 9,
+                    "endColumn": 9,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 187,
+                        "endLine": 12,
+                        "endColumn": 9,
+                        "endOffset": 322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 698
+                },
+                "from": {
+                    "file": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 703,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 882
+                },
+                "from": {
+                    "file": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 707,
+                        "endLine": 28,
+                        "endColumn": 12,
+                        "endOffset": 886
+                    }
+                }
+            }
+        ]
+    }
+]

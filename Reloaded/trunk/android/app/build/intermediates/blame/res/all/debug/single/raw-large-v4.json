@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/raw-large-v4/controller_portrait.txt",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/raw-large/controller_portrait.txt"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/raw-large-v4/controller_landscape.txt",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/raw-large/controller_landscape.txt"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/raw-large-v4/controller_portrait_full.txt",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/raw-large/controller_portrait_full.txt"
+    },
+    {
+        "merged": "/home/gpf/imame4all/Reloaded/trunk/android/app/build/intermediates/res/merged/all/debug/raw-large-v4/controller_landscape_16_9.txt",
+        "source": "/home/gpf/imame4all/Reloaded/trunk/android/app/src/main/res/raw-large/controller_landscape_16_9.txt"
+    }
+]
