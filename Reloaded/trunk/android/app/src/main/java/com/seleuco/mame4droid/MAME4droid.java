@@ -101,8 +101,8 @@ final class NotificationHelper
 		builder.setSmallIcon(icon);
 		builder.setContentIntent(contentIntent);
 		builder.setOngoing(true);
-		builder.setSubText("This is subtext...");   //API level 16
-		builder.setNumber(100);
+		builder.setSubText("GPF");   //API level 16
+		builder.setNumber(139);
 		builder.build();
 
 		notification = builder.getNotification();
@@ -112,7 +112,7 @@ final class NotificationHelper
 	public static void removeNotification()
 	{
 		if(notificationManager != null)
-			notificationManager.cancel(1);
+			notificationManager.cancel(11);
 	}
 }
 
@@ -492,5 +492,6 @@ public class MAME4droid extends Activity {
 			return inputHandler.genericMotion(event);
 		return false;
 	}
+
 
 }
