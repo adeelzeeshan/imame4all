@@ -1,7 +1,7 @@
 ###########################################################################
 #
 #   makefile
-#f
+#
 #   Core makefile for building MAME and derivatives
 #
 #   Copyright (c) Nicola Salmoria and the MAME Team.
