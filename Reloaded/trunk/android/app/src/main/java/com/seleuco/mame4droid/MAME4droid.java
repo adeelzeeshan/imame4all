@@ -101,7 +101,7 @@ final class NotificationHelper
 		builder.setSmallIcon(icon);
 		builder.setContentIntent(contentIntent);
 		builder.setOngoing(true);
-		builder.setSubText("GPF");  //API level 16
+		builder.setSubText("GPF");//API level 16
 		builder.setNumber(139);
 		builder.build();
 
